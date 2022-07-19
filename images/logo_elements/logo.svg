@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="25.6604" width="6.33962" height="6.33962" fill="#FF4D00"/>
+<rect x="25.6604" y="6.3396" width="6.33962" height="6.33962" fill="#FF4D00"/>
+<rect x="25.6604" y="12.6792" width="6.33962" height="6.64151" fill="#FF4D00"/>
+<rect x="25.6604" y="19.3208" width="6.33962" height="6.33962" fill="#FF4D00"/>
+<rect x="25.6604" y="25.6604" width="6.33962" height="6.33962" fill="#FF4D00"/>
+<rect x="25.6604" y="25.6604" width="6.33962" height="6.33962" transform="rotate(90 25.6604 25.6604)" fill="#FF4D00"/>
+<rect x="19.3208" y="25.6604" width="6.33962" height="6.64151" transform="rotate(90 19.3208 25.6604)" fill="#FF4D00"/>
+<rect x="12.6792" y="25.6604" width="6.33962" height="6.33962" transform="rotate(90 12.6792 25.6604)" fill="#FF4D00"/>
+<rect x="25.6604" width="6.33962" height="6.33962" transform="rotate(90 25.6604 0)" fill="#FF4D00"/>
+<rect x="19.3208" width="6.33962" height="3.32075" transform="rotate(90 19.3208 0)" fill="#FF4D00"/>
+<rect x="6.3396" y="25.6604" width="6.33962" height="6.33962" transform="rotate(90 6.3396 25.6604)" fill="#FF4D00"/>
+<rect y="16" width="6.33962" height="3.32075" fill="#FF4D00"/>
+<rect y="19.3208" width="6.33962" height="6.33962" fill="#FF4D00"/>
+<rect x="1" y="1" width="10" height="10" stroke="#4C48FF" stroke-width="2"/>
+</svg>

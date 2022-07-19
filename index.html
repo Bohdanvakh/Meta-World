@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Meta World</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="images/logo elements/image small.svg">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="container_block">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo_elements/logo.svg" alt="site logo">
+                    </a>
+                </div>
+                <div class="nav_menu">
+                    <ul class="menu_list" id="menu_list">
+                        <li class="menu_item"><a href="#" class="menu_link">About</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">FAQ</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">Info</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link">Meta</a></li>
+                    </ul>
+                </div>
+                <img src="images/burger.svg" class="burger_menu" alt="burger_menu" onclick="togglemenu()">
+            </nav>
+            <main class="content">
+                <div class="text_content">
+                    <h1>Explore Your New</h1>
+                    <div class="orange_text">
+                        <h2>Meta-World</h2>
+                        <img src="images/rectangle.png" class="rectangle" alt="rectangle">
+                        <img src="images/cursor.png" class="cursor" alt="cursor">
+                    </div>
+                    <div class="circles">
+                        <div class="circles_line"></div>
+                        <div class="circles_group">
+                            <img src="images/circles/red.svg" alt="red circle">
+                            <img src="images/circles/yelow.svg" alt="yelow circle">
+                            <img src="images/circles/green.svg" alt="green circle">
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Habitant ligula et egestas lobortis eget tincidunt.
+                    </p>
+                    <div class="button">
+                        <a href="#" class="button_link">Request Demo</a>
+                    </div>
+                </div>
+                <div class="image_content">
+                    <img src="images/image_main.png" alt="man picture">
+                </div>
+            </main>
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menu_list");
+        menu_list.style.maxHeight = "0px";
+        function togglemenu() {
+            if (menu_list.style.maxHeight == "0px"){
+                    menu_list.style.maxHeight = "780px";
+                } else {
+                    menu_list.style.maxHeight = "0px";
+                };
+            }
+    </script>
+</body>
+</html>
